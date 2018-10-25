@@ -2,7 +2,7 @@
 EC 601 Mini Project2- A project that trains a model to detect 6 different handwritten greek alphabets
 
 # Dataset
-9237 jpg images of handwritten greek alphabets
+9074 jpg images of handwritten greek alphabets
 - epsilon
 - mu
 - omega
@@ -30,4 +30,3 @@ image_size 28x28
 * https://www.tensorflow.org/tutorials/keras/basic_classification
 * https://www.pyimagesearch.com/2016/08/01/lenet-convolutional-neural-network-in-python/
 * https://machinelearningmastery.com/save-load-keras-deep-learning-models/
-
