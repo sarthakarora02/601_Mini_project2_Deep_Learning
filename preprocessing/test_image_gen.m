@@ -47,7 +47,7 @@ for k = 1: height(T3)
        crop_box = imcrop(I,thisBB);
        resized_img = imresize(crop_box,[28 28]);
        %file_name = sprintf('img_%05d.jpg', count);
-       file_name = sprintf('/Users/sarthakarora/Documents/MATLAB/test_images/img_%05d.jpg', count);
+       file_name = sprintf('img_%05d.jpg', count);
        count = count+1;
        imwrite(resized_img, file_name);
   end
