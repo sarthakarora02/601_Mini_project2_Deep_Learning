@@ -23,7 +23,7 @@ EC 601 Mini Project2- A project that trains a model to detect 6 different handwr
 
 ## User Guide
 * main.ipynb - Splits the dataset(./train_images) into train, test and validation. Trains the model with the images and saves the model as json and weights as .h5
-* predictor.ipynb - Loads the saved model and evaluates another set of images(./test_images) and displays the images with the predcitions and the true labels in a grid.
+* predictor.ipynb - Loads the saved model and evaluates another set of images(./test_images) and displays the images with the predictions and the true labels.
 * ./preprocessing folder contains the handwritten character images and the matlab code written to preprocess and extract character out of those images
 
 ## References
